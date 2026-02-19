@@ -12,8 +12,8 @@ import pandas as pd
 import joblib
 
 # Load model & encoders
-model = joblib.load("/mnt/data/mumbai_house__prediction_model.pkl")
-encoder = joblib.load("/mnt/data/label_encoder (4).pkl")
+model = joblib.load("model.pkl")
+encoder = joblib.load("encoder.pkl")
 
 st.title("🏠 Mumbai House Price Prediction App")
 
