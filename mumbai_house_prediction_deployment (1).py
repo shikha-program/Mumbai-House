@@ -60,7 +60,10 @@ if st.button("Predict Price"):
     # -----------------------------
     # Make Prediction
     # -----------------------------
-   if st.button("Predict Price"):
+       age = st.number_input(...)
+<TAB>city = st.selectbox(...)
+    area = st.selectbox(...)
+
 
     prediction = model.predict(df)
 
